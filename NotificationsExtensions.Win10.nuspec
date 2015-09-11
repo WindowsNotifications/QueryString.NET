@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>QueryString.NET</id>
+        <version>0.0.0</version>
+        <authors>Microsoft</authors>
+	<owners>microsoft, andrewbares</owners>
+        <projectUrl>https://github.com/WindowsNotifications/QueryString.NET</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A library for generating and parsing query strings using C#. Url encoding/decoding is automatically handled. Supports multiple values per name.</description>
+        <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+        <tags>query string, querystring, url</tags>
+	<licenseUrl>https://raw.githubusercontent.com/WindowsNotifications/QueryString.NET/master/LICENSE</licenseUrl>
+    </metadata>
+    <files>
+        <file src="QueryString.Portable\bin\Release\QueryString.Portable.dll" target="lib\portable-net4+sl50+win+wpa81+wp80"/>
+        <file src="QueryString.Portable\bin\Release\QueryString.Portable.pdb" target="lib\portable-net4+sl50+win+wpa81+wp80"/>
+        <file src="QueryString.Portable\bin\Release\QueryString.Portable.xml" target="lib\portable-net4+sl50+win+wpa81+wp80"/>
+
+	<file src="QueryString.NETCore\bin\Release\QueryString.NETCore.dll" target="lib\dotnet"/>
+	<file src="QueryString.NETCore\bin\Release\QueryString.NETCore.pdb" target="lib\dotnet"/>
+	<file src="QueryString.NETCore\bin\Release\QueryString.NETCore.xml" target="lib\dotnet"/>
+    </files>
+</package>
