@@ -70,7 +70,7 @@ namespace Microsoft.QueryStringDotNET
     public enum QueryStringSeparator
     {
         /// <summary>
-        /// The default separator for query string parameters. Generated query string is like "a=1&b=5".
+        /// The default separator for query string parameters. Generated query string is like "a=&b=5".
         /// </summary>
         Ampersand,
 

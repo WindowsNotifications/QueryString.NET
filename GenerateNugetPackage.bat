@@ -7,7 +7,7 @@ set /p version="Enter Version Number (ex. 1.0.0): "
 
 if not exist "NugetPackages" mkdir "NugetPackages"
 
-"C:\Program Files (x86)\NuGet\nuget.exe" pack -Version %version% -OutputDirectory "NugetPackages"
+"nuget.exe" pack -Version %version% -OutputDirectory "NugetPackages"
 
 PAUSE
 
